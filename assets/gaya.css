@@ -1,0 +1,152 @@
+.body {
+  font-family: Viga;
+  background-color: #f8f9fa;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+.th {
+  background-color: #f2f2f2;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px rgba(24, 241, 9, 0.877);
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+.button {
+  background-color: rgb(32, 179, 233);
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #0d6efd;
+}
+
+.jumbotron {
+  background-position: center;
+  background-image: url("img/fotoaibe.webp");
+  height: 600px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .display-5 {
+  color: white;
+  margin-top: 300px;
+  margin-bottom: 60px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .display-5 span {
+  font-weight: 500;
+}
+
+.card:hover {
+  background-color: #fff;
+  margin: relative;
+  box-shadow: 2px 2px 4px 4px rgb(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+#gallery .container {
+  max-width: 800px; /* Atur lebar maksimum container */
+  margin: 0 auto; /* Pusatkan container */
+}
+
+.carousel-item img {
+  max-height: 400px; /* Atur tinggi maksimum untuk gambar */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.kontak {
+  text-decoration: none;
+}
+
+.footer-brand {
+  font-family: Viga;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
+}
+
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    height: 50px; /* Atur tinggi navbar untuk perangkat mobile */
+  }
+
+  .navbar-brand img {
+    max-height: 50px; /* Ukuran logo lebih kecil untuk perangkat mobile */
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
